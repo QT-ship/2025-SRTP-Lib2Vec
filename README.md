@@ -9,6 +9,7 @@
 # 2025-SRTP-Lib2Vec
 ## 本项目环境
  conda环境名 Lib2Vec           文件夹/home/mingya/program_sources/miniconda3/envs/Lib2Vec/
+ 
  python3.10 环境名 Lib2Vec-env 文件夹~/Lib2Vec-env
 ~~source Lib2Vec-env/bin/activate 激活环境~~
 ~~deactivate 退出环境~~
@@ -70,4 +71,5 @@ flowchart TD
         E -- 输入 --> H[电气模型训练]
     end
 ```
+
 
