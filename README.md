@@ -21,15 +21,15 @@ sorce setup_environment.sh
 
 ## 已安装
 参见requirements.txt
-~~PyTorch版本: 2.7.1+cu118 ~~
-~~CUDA版本: 11.8 ~~
+~~PyTorch版本: 2.7.1+cu118~~
+~~CUDA版本: 11.8~~
 ~~GPU设备: NVIDIA GeForce RTX 4060 Laptop GPU~~
 ~~NumPy版本: 2.1.2~~
 ~~Pandas版本: 2.3.1~~
 ~~Scikit-learn版本: 1.7.1~~
 ~~Matplotlib版本: 3.10.5~~
 
-~~toLiberty-parser （使用未验证，未添加路径到环境变量，也不知道要不要添加）附网址：       ~~   ~~https://codeberg.org/tok/liberty-parser（论文引用17）~~
+~~toLiberty-parser （使用未验证，未添加路径到环境变量，也不知道要不要添加）附网址~~https://codeberg.org/tok/liberty-parser（论文引用17）~~
 
 ~~jupyter（可视化）~~
 ~~seaborn plotly ipywidgets（额外的数据处理库）~~
@@ -71,5 +71,6 @@ flowchart TD
         E -- 输入 --> H[电气模型训练]
     end
 ```
+
 
 
