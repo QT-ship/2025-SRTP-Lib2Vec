@@ -1,0 +1,1415 @@
+{
+  "library_info": {
+    "name": "asap7sc7p5t_AO_LVT_TT_nldm_201020",
+    "delay_model": "table_lookup",
+    "nom_voltage": 0.7,
+    "nom_temperature": 25.0,
+    "nom_process": 1.0,
+    "default_max_transition": 320.0,
+    "default_fanout_load": 1.0,
+    "default_output_pin_cap": 0.0,
+    "in_place_swap_mode": "match_footprint",
+    "voltage_maps": {
+      "VDD": 0.7,
+      "VSS": 0.0,
+      "GND": 0.0
+    },
+    "operating_conditions": "PVT_0P7V_25C"
+  },
+  "cells": [
+    {
+      "name": "A2O1A1Ixp33_ASAP7_75t_L",
+      "area": 0.08748,
+      "leakage_power": 0.0,
+      "pin_count": 7,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 23.04,
+          "timing_arc_count": 11,
+          "power_arc_count": 18
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.559208,
+          "timing_arc_count": 0,
+          "power_arc_count": 14
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.560404,
+          "timing_arc_count": 0,
+          "power_arc_count": 12
+        },
+        {
+          "name": "B",
+          "direction": "input",
+          "capacitance": 0.592061,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        },
+        {
+          "name": "C",
+          "direction": "input",
+          "capacitance": 0.571457,
+          "timing_arc_count": 0,
+          "power_arc_count": 4
+        }
+      ],
+      "function": "(!A1 * !B) + (!A2 * !B) + (!C)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 11,
+      "power_arcs": 56
+    },
+    {
+      "name": "A2O1A1O1Ixp25_ASAP7_75t_L",
+      "area": 0.13122,
+      "leakage_power": 0.0,
+      "pin_count": 8,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 23.04,
+          "timing_arc_count": 19,
+          "power_arc_count": 32
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.523362,
+          "timing_arc_count": 0,
+          "power_arc_count": 20
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.520664,
+          "timing_arc_count": 0,
+          "power_arc_count": 26
+        },
+        {
+          "name": "B",
+          "direction": "input",
+          "capacitance": 0.542319,
+          "timing_arc_count": 0,
+          "power_arc_count": 18
+        },
+        {
+          "name": "C",
+          "direction": "input",
+          "capacitance": 0.584967,
+          "timing_arc_count": 0,
+          "power_arc_count": 14
+        },
+        {
+          "name": "D",
+          "direction": "input",
+          "capacitance": 0.635748,
+          "timing_arc_count": 0,
+          "power_arc_count": 6
+        }
+      ],
+      "function": "(!A1 * !B * !D) + (!A2 * !B * !D) + (!C * !D)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 19,
+      "power_arcs": 116
+    },
+    {
+      "name": "AO211x2_ASAP7_75t_L",
+      "area": 0.23328,
+      "leakage_power": 0.0,
+      "pin_count": 7,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 92.16,
+          "timing_arc_count": 10,
+          "power_arc_count": 16
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.939408,
+          "timing_arc_count": 0,
+          "power_arc_count": 14
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.891254,
+          "timing_arc_count": 0,
+          "power_arc_count": 12
+        },
+        {
+          "name": "B",
+          "direction": "input",
+          "capacitance": 0.85193,
+          "timing_arc_count": 0,
+          "power_arc_count": 6
+        },
+        {
+          "name": "C",
+          "direction": "input",
+          "capacitance": 0.889922,
+          "timing_arc_count": 0,
+          "power_arc_count": 6
+        }
+      ],
+      "function": "(A1 * A2) + (B) + (C)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 10,
+      "power_arcs": 54
+    },
+    {
+      "name": "AO21x1_ASAP7_75t_L",
+      "area": 0.08748,
+      "leakage_power": 0.0,
+      "pin_count": 6,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 46.08,
+          "timing_arc_count": 6,
+          "power_arc_count": 10
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.579703,
+          "timing_arc_count": 0,
+          "power_arc_count": 6
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.593762,
+          "timing_arc_count": 0,
+          "power_arc_count": 6
+        },
+        {
+          "name": "B",
+          "direction": "input",
+          "capacitance": 0.593994,
+          "timing_arc_count": 0,
+          "power_arc_count": 2
+        }
+      ],
+      "function": "(A1 * A2) + (B)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 6,
+      "power_arcs": 24
+    },
+    {
+      "name": "AO21x2_ASAP7_75t_L",
+      "area": 0.10206,
+      "leakage_power": 0.0,
+      "pin_count": 6,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 92.16,
+          "timing_arc_count": 6,
+          "power_arc_count": 10
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.580352,
+          "timing_arc_count": 0,
+          "power_arc_count": 6
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.594865,
+          "timing_arc_count": 0,
+          "power_arc_count": 6
+        },
+        {
+          "name": "B",
+          "direction": "input",
+          "capacitance": 0.595786,
+          "timing_arc_count": 0,
+          "power_arc_count": 2
+        }
+      ],
+      "function": "(A1 * A2) + (B)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 6,
+      "power_arcs": 24
+    },
+    {
+      "name": "AO221x1_ASAP7_75t_L",
+      "area": 0.1458,
+      "leakage_power": 0.0,
+      "pin_count": 8,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 46.08,
+          "timing_arc_count": 26,
+          "power_arc_count": 42
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.490882,
+          "timing_arc_count": 0,
+          "power_arc_count": 20
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.459517,
+          "timing_arc_count": 0,
+          "power_arc_count": 16
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.537151,
+          "timing_arc_count": 0,
+          "power_arc_count": 16
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.504433,
+          "timing_arc_count": 0,
+          "power_arc_count": 16
+        },
+        {
+          "name": "C",
+          "direction": "input",
+          "capacitance": 0.501482,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        }
+      ],
+      "function": "(A1 * A2) + (B1 * B2) + (C)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 26,
+      "power_arcs": 118
+    },
+    {
+      "name": "AO221x2_ASAP7_75t_L",
+      "area": 0.16038,
+      "leakage_power": 0.0,
+      "pin_count": 8,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 92.16,
+          "timing_arc_count": 26,
+          "power_arc_count": 42
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.490319,
+          "timing_arc_count": 0,
+          "power_arc_count": 20
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.459097,
+          "timing_arc_count": 0,
+          "power_arc_count": 16
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.537044,
+          "timing_arc_count": 0,
+          "power_arc_count": 16
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.50372,
+          "timing_arc_count": 0,
+          "power_arc_count": 16
+        },
+        {
+          "name": "C",
+          "direction": "input",
+          "capacitance": 0.501015,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        }
+      ],
+      "function": "(A1 * A2) + (B1 * B2) + (C)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 26,
+      "power_arcs": 118
+    },
+    {
+      "name": "AO222x2_ASAP7_75t_L",
+      "area": 0.17496,
+      "leakage_power": 0.0,
+      "pin_count": 9,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 92.16,
+          "timing_arc_count": 58,
+          "power_arc_count": 104
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.571663,
+          "timing_arc_count": 0,
+          "power_arc_count": 28
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.541445,
+          "timing_arc_count": 0,
+          "power_arc_count": 22
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.567878,
+          "timing_arc_count": 0,
+          "power_arc_count": 24
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.52532,
+          "timing_arc_count": 0,
+          "power_arc_count": 22
+        },
+        {
+          "name": "C1",
+          "direction": "input",
+          "capacitance": 0.612588,
+          "timing_arc_count": 0,
+          "power_arc_count": 24
+        },
+        {
+          "name": "C2",
+          "direction": "input",
+          "capacitance": 0.569683,
+          "timing_arc_count": 0,
+          "power_arc_count": 24
+        }
+      ],
+      "function": "(A1 * A2) + (B1 * B2) + (C1 * C2)",
+      "cell_type": "COMPLEX",
+      "cell_footprint": null,
+      "timing_arcs": 58,
+      "power_arcs": 248
+    },
+    {
+      "name": "AO22x1_ASAP7_75t_L",
+      "area": 0.13122,
+      "leakage_power": 0.0,
+      "pin_count": 7,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 46.08,
+          "timing_arc_count": 16,
+          "power_arc_count": 24
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.390725,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.424768,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.412993,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.439221,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        }
+      ],
+      "function": "(A1 * A2) + (B1 * B2)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 16,
+      "power_arcs": 56
+    },
+    {
+      "name": "AO22x2_ASAP7_75t_L",
+      "area": 0.1458,
+      "leakage_power": 0.0,
+      "pin_count": 7,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 92.16,
+          "timing_arc_count": 16,
+          "power_arc_count": 24
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.53588,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.582601,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.569901,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.608817,
+          "timing_arc_count": 0,
+          "power_arc_count": 8
+        }
+      ],
+      "function": "(A1 * A2) + (B1 * B2)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 16,
+      "power_arcs": 56
+    },
+    {
+      "name": "AO31x2_ASAP7_75t_L",
+      "area": 0.23328,
+      "leakage_power": 0.0,
+      "pin_count": 7,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 92.16,
+          "timing_arc_count": 10,
+          "power_arc_count": 18
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 1.15595,
+          "timing_arc_count": 0,
+          "power_arc_count": 10
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 1.084,
+          "timing_arc_count": 0,
+          "power_arc_count": 14
+        },
+        {
+          "name": "A3",
+          "direction": "input",
+          "capacitance": 1.07303,
+          "timing_arc_count": 0,
+          "power_arc_count": 12
+        },
+        {
+          "name": "B",
+          "direction": "input",
+          "capacitance": 0.94206,
+          "timing_arc_count": 0,
+          "power_arc_count": 2
+        }
+      ],
+      "function": "(A1 * A2 * A3) + (B)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 10,
+      "power_arcs": 56
+    },
+    {
+      "name": "AO322x2_ASAP7_75t_L",
+      "area": 0.2187,
+      "leakage_power": 0.0,
+      "pin_count": 10,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 92.16,
+          "timing_arc_count": 102,
+          "power_arc_count": 190
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.585272,
+          "timing_arc_count": 0,
+          "power_arc_count": 46
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.520844,
+          "timing_arc_count": 0,
+          "power_arc_count": 52
+        },
+        {
+          "name": "A3",
+          "direction": "input",
+          "capacitance": 0.520171,
+          "timing_arc_count": 0,
+          "power_arc_count": 42
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.50272,
+          "timing_arc_count": 0,
+          "power_arc_count": 32
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.482987,
+          "timing_arc_count": 0,
+          "power_arc_count": 28
+        },
+        {
+          "name": "C1",
+          "direction": "input",
+          "capacitance": 0.536951,
+          "timing_arc_count": 0,
+          "power_arc_count": 32
+        },
+        {
+          "name": "C2",
+          "direction": "input",
+          "capacitance": 0.508685,
+          "timing_arc_count": 0,
+          "power_arc_count": 32
+        }
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2) + (C1 * C2)",
+      "cell_type": "COMPLEX",
+      "cell_footprint": null,
+      "timing_arcs": 102,
+      "power_arcs": 454
+    },
+    {
+      "name": "AO32x1_ASAP7_75t_L",
+      "area": 0.11664,
+      "leakage_power": 0.0,
+      "pin_count": 8,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 46.08,
+          "timing_arc_count": 26,
+          "power_arc_count": 42
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.522302,
+          "timing_arc_count": 0,
+          "power_arc_count": 14
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.438582,
+          "timing_arc_count": 0,
+          "power_arc_count": 20
+        },
+        {
+          "name": "A3",
+          "direction": "input",
+          "capacitance": 0.486941,
+          "timing_arc_count": 0,
+          "power_arc_count": 18
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.459117,
+          "timing_arc_count": 0,
+          "power_arc_count": 10
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.41634,
+          "timing_arc_count": 0,
+          "power_arc_count": 10
+        }
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 26,
+      "power_arcs": 114
+    },
+    {
+      "name": "AO32x2_ASAP7_75t_L",
+      "area": 0.13122,
+      "leakage_power": 0.0,
+      "pin_count": 8,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 92.16,
+          "timing_arc_count": 26,
+          "power_arc_count": 42
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.528755,
+          "timing_arc_count": 0,
+          "power_arc_count": 14
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.438089,
+          "timing_arc_count": 0,
+          "power_arc_count": 20
+        },
+        {
+          "name": "A3",
+          "direction": "input",
+          "capacitance": 0.485965,
+          "timing_arc_count": 0,
+          "power_arc_count": 18
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.460596,
+          "timing_arc_count": 0,
+          "power_arc_count": 10
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.417306,
+          "timing_arc_count": 0,
+          "power_arc_count": 10
+        }
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2)",
+      "cell_type": "MEDIUM",
+      "cell_footprint": null,
+      "timing_arcs": 26,
+      "power_arcs": 114
+    },
+    {
+      "name": "AO331x1_ASAP7_75t_L",
+      "area": 0.1458,
+      "leakage_power": 0.0,
+      "pin_count": 10,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 46.08,
+          "timing_arc_count": 73,
+          "power_arc_count": 132
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.571836,
+          "timing_arc_count": 0,
+          "power_arc_count": 42
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.51172,
+          "timing_arc_count": 0,
+          "power_arc_count": 46
+        },
+        {
+          "name": "A3",
+          "direction": "input",
+          "capacitance": 0.529028,
+          "timing_arc_count": 0,
+          "power_arc_count": 36
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.567293,
+          "timing_arc_count": 0,
+          "power_arc_count": 36
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.505941,
+          "timing_arc_count": 0,
+          "power_arc_count": 42
+        },
+        {
+          "name": "B3",
+          "direction": "input",
+          "capacitance": 0.523567,
+          "timing_arc_count": 0,
+          "power_arc_count": 36
+        },
+        {
+          "name": "C",
+          "direction": "input",
+          "capacitance": 0.627909,
+          "timing_arc_count": 0,
+          "power_arc_count": 12
+        }
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2 * B3) + (C)",
+      "cell_type": "COMPLEX",
+      "cell_footprint": null,
+      "timing_arcs": 73,
+      "power_arcs": 382
+    },
+    {
+      "name": "AO331x2_ASAP7_75t_L",
+      "area": 0.16038,
+      "leakage_power": 0.0,
+      "pin_count": 10,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 92.16,
+          "timing_arc_count": 73,
+          "power_arc_count": 132
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.571587,
+          "timing_arc_count": 0,
+          "power_arc_count": 42
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.511205,
+          "timing_arc_count": 0,
+          "power_arc_count": 46
+        },
+        {
+          "name": "A3",
+          "direction": "input",
+          "capacitance": 0.528782,
+          "timing_arc_count": 0,
+          "power_arc_count": 36
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.567284,
+          "timing_arc_count": 0,
+          "power_arc_count": 36
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.506447,
+          "timing_arc_count": 0,
+          "power_arc_count": 42
+        },
+        {
+          "name": "B3",
+          "direction": "input",
+          "capacitance": 0.523021,
+          "timing_arc_count": 0,
+          "power_arc_count": 36
+        },
+        {
+          "name": "C",
+          "direction": "input",
+          "capacitance": 0.62685,
+          "timing_arc_count": 0,
+          "power_arc_count": 12
+        }
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2 * B3) + (C)",
+      "cell_type": "COMPLEX",
+      "cell_footprint": null,
+      "timing_arcs": 73,
+      "power_arcs": 382
+    },
+    {
+      "name": "AO332x1_ASAP7_75t_L",
+      "area": 0.16038,
+      "leakage_power": 0.0,
+      "pin_count": 11,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 46.08,
+          "timing_arc_count": 176,
+          "power_arc_count": 336
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.568021,
+          "timing_arc_count": 0,
+          "power_arc_count": 60
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.511753,
+          "timing_arc_count": 0,
+          "power_arc_count": 68
+        },
+        {
+          "name": "A3",
+          "direction": "input",
+          "capacitance": 0.529926,
+          "timing_arc_count": 0,
+          "power_arc_count": 56
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.568558,
+          "timing_arc_count": 0,
+          "power_arc_count": 54
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.507084,
+          "timing_arc_count": 0,
+          "power_arc_count": 68
+        },
+        {
+          "name": "B3",
+          "direction": "input",
+          "capacitance": 0.524101,
+          "timing_arc_count": 0,
+          "power_arc_count": 62
+        },
+        {
+          "name": "C1",
+          "direction": "input",
+          "capacitance": 0.614716,
+          "timing_arc_count": 0,
+          "power_arc_count": 42
+        },
+        {
+          "name": "C2",
+          "direction": "input",
+          "capacitance": 0.571158,
+          "timing_arc_count": 0,
+          "power_arc_count": 42
+        }
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2)",
+      "cell_type": "COMPLEX",
+      "cell_footprint": null,
+      "timing_arcs": 176,
+      "power_arcs": 788
+    },
+    {
+      "name": "AO332x2_ASAP7_75t_L",
+      "area": 0.17496,
+      "leakage_power": 0.0,
+      "pin_count": 11,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 92.16,
+          "timing_arc_count": 176,
+          "power_arc_count": 336
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.567665,
+          "timing_arc_count": 0,
+          "power_arc_count": 60
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.511242,
+          "timing_arc_count": 0,
+          "power_arc_count": 68
+        },
+        {
+          "name": "A3",
+          "direction": "input",
+          "capacitance": 0.529721,
+          "timing_arc_count": 0,
+          "power_arc_count": 56
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.568398,
+          "timing_arc_count": 0,
+          "power_arc_count": 54
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.507534,
+          "timing_arc_count": 0,
+          "power_arc_count": 68
+        },
+        {
+          "name": "B3",
+          "direction": "input",
+          "capacitance": 0.52359,
+          "timing_arc_count": 0,
+          "power_arc_count": 62
+        },
+        {
+          "name": "C1",
+          "direction": "input",
+          "capacitance": 0.614087,
+          "timing_arc_count": 0,
+          "power_arc_count": 42
+        },
+        {
+          "name": "C2",
+          "direction": "input",
+          "capacitance": 0.570202,
+          "timing_arc_count": 0,
+          "power_arc_count": 42
+        }
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2)",
+      "cell_type": "COMPLEX",
+      "cell_footprint": null,
+      "timing_arcs": 176,
+      "power_arcs": 788
+    },
+    {
+      "name": "AO333x1_ASAP7_75t_L",
+      "area": 0.17496,
+      "leakage_power": 0.0,
+      "pin_count": 12,
+      "pins": [
+        {
+          "name": "VDD",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "VSS",
+          "direction": null,
+          "capacitance": 0.0,
+          "timing_arc_count": 0,
+          "power_arc_count": 0
+        },
+        {
+          "name": "Y",
+          "direction": "output",
+          "capacitance": 46.08,
+          "timing_arc_count": 315,
+          "power_arc_count": 612
+        },
+        {
+          "name": "A1",
+          "direction": "input",
+          "capacitance": 0.573156,
+          "timing_arc_count": 0,
+          "power_arc_count": 78
+        },
+        {
+          "name": "A2",
+          "direction": "input",
+          "capacitance": 0.512054,
+          "timing_arc_count": 0,
+          "power_arc_count": 90
+        },
+        {
+          "name": "A3",
+          "direction": "input",
+          "capacitance": 0.530086,
+          "timing_arc_count": 0,
+          "power_arc_count": 76
+        },
+        {
+          "name": "B1",
+          "direction": "input",
+          "capacitance": 0.52443,
+          "timing_arc_count": 0,
+          "power_arc_count": 88
+        },
+        {
+          "name": "B2",
+          "direction": "input",
+          "capacitance": 0.507367,
+          "timing_arc_count": 0,
+          "power_arc_count": 94
+        },
+        {
+          "name": "B3",
+          "direction": "input",
+          "capacitance": 0.568382,
+          "timing_arc_count": 0,
+          "power_arc_count": 72
+        },
+        {
+          "name": "C1",
+          "direction": "input",
+          "capacitance": 0.61101,
+          "timing_arc_count": 0,
+          "power_arc_count": 72
+        },
+        {
+          "name": "C2",
+          "direction": "input",
+          "capacitance": 0.551173,
+          "timing_arc_count": 0,
+          "power_arc_count": 102
+        },
+        {
+          "name": "C3",
+          "direction": "input",
+          "capacitance": 0.567264,
+          "timing_arc_count": 0,
+          "power_arc_count": 102
+        }
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2 * C3)",
+      "cell_type": "COMPLEX",
+      "cell_footprint": null,
+      "timing_arcs": 315,
+      "power_arcs": 1386
+    }
+  ],
+  "statistics": {
+    "total_cells": 19,
+    "pin_count_distribution": {
+      "7": 5,
+      "8": 5,
+      "6": 2,
+      "9": 1,
+      "10": 3,
+      "11": 2,
+      "12": 1
+    },
+    "function_types": {
+      "combinational": 19
+    },
+    "cell_types": {
+      "MEDIUM": 12,
+      "COMPLEX": 7
+    },
+    "area_distribution": {
+      "min": 0.08748,
+      "max": 0.23328,
+      "avg": 0.15347368421052632,
+      "total": 2.916
+    },
+    "timing_arcs_total": 1171,
+    "power_arcs_total": 5334
+  }
+}

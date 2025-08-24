@@ -1,0 +1,360 @@
+{
+  "library_info": {
+    "name": "asap7sc7p5t_AO_LVT_TT_nldm_201020",
+    "delay_model": "table_lookup",
+    "nom_voltage": 0.7,
+    "nom_temperature": 25.0,
+    "nom_process": 1.0,
+    "default_max_transition": 320.0,
+    "default_fanout_load": 1.0
+  },
+  "cells": [
+    {
+      "name": "A2O1A1Ixp33_ASAP7_75t_L",
+      "area": 0.08748,
+      "pin_count": 7,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "B",
+        "C"
+      ],
+      "function": "(!A1 * !B) + (!A2 * !B) + (!C)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "A2O1A1O1Ixp25_ASAP7_75t_L",
+      "area": 0.13122,
+      "pin_count": 8,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "B",
+        "C",
+        "D"
+      ],
+      "function": "(!A1 * !B * !D) + (!A2 * !B * !D) + (!C * !D)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO211x2_ASAP7_75t_L",
+      "area": 0.23328,
+      "pin_count": 7,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "B",
+        "C"
+      ],
+      "function": "(A1 * A2) + (B) + (C)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO21x1_ASAP7_75t_L",
+      "area": 0.08748,
+      "pin_count": 6,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "B"
+      ],
+      "function": "(A1 * A2) + (B)",
+      "cell_type": "MEDIUM"
+    },
+    {
+      "name": "AO21x2_ASAP7_75t_L",
+      "area": 0.10206,
+      "pin_count": 6,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "B"
+      ],
+      "function": "(A1 * A2) + (B)",
+      "cell_type": "MEDIUM"
+    },
+    {
+      "name": "AO221x1_ASAP7_75t_L",
+      "area": 0.1458,
+      "pin_count": 8,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C"
+      ],
+      "function": "(A1 * A2) + (B1 * B2) + (C)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO221x2_ASAP7_75t_L",
+      "area": 0.16038,
+      "pin_count": 8,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C"
+      ],
+      "function": "(A1 * A2) + (B1 * B2) + (C)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO222x2_ASAP7_75t_L",
+      "area": 0.17496,
+      "pin_count": 9,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "function": "(A1 * A2) + (B1 * B2) + (C1 * C2)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO22x1_ASAP7_75t_L",
+      "area": 0.13122,
+      "pin_count": 7,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "function": "(A1 * A2) + (B1 * B2)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO22x2_ASAP7_75t_L",
+      "area": 0.1458,
+      "pin_count": 7,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "function": "(A1 * A2) + (B1 * B2)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO31x2_ASAP7_75t_L",
+      "area": 0.23328,
+      "pin_count": 7,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "A3",
+        "B"
+      ],
+      "function": "(A1 * A2 * A3) + (B)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO322x2_ASAP7_75t_L",
+      "area": 0.2187,
+      "pin_count": 10,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2) + (C1 * C2)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO32x1_ASAP7_75t_L",
+      "area": 0.11664,
+      "pin_count": 8,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2"
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO32x2_ASAP7_75t_L",
+      "area": 0.13122,
+      "pin_count": 8,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2"
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO331x1_ASAP7_75t_L",
+      "area": 0.1458,
+      "pin_count": 10,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "C"
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2 * B3) + (C)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO331x2_ASAP7_75t_L",
+      "area": 0.16038,
+      "pin_count": 10,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "C"
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2 * B3) + (C)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO332x1_ASAP7_75t_L",
+      "area": 0.16038,
+      "pin_count": 11,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "C1",
+        "C2"
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO332x2_ASAP7_75t_L",
+      "area": 0.17496,
+      "pin_count": 11,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "C1",
+        "C2"
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2)",
+      "cell_type": "COMPLEX"
+    },
+    {
+      "name": "AO333x1_ASAP7_75t_L",
+      "area": 0.17496,
+      "pin_count": 12,
+      "pins": [
+        "VDD",
+        "VSS",
+        "Y",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "function": "(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2 * C3)",
+      "cell_type": "COMPLEX"
+    }
+  ],
+  "statistics": {
+    "total_cells": 19,
+    "pin_count_distribution": {
+      "7": 5,
+      "8": 5,
+      "6": 2,
+      "9": 1,
+      "10": 3,
+      "11": 2,
+      "12": 1
+    },
+    "function_types": {
+      "inverter": 2,
+      "combinational": 17
+    }
+  }
+}
