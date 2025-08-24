@@ -2,14 +2,13 @@
  * @Author: QT-ship 3230103073@zju.edu.cn
  * @Date: 2025-08-21 14:27:34
  * @LastEditors: QT-ship 3230103073@zju.edu.cn
- * @LastEditTime: 2025-08-22 19:22:21
+ * @LastEditTime: 2025-08-24 22:05:20
  * @FilePath: \2025-SRTP-Lib2Vec\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 # 2025-SRTP-Lib2Vec
 ## 本项目环境
  conda环境名 Lib2Vec           文件夹/home/mingya/program_sources/miniconda3/envs/Lib2Vec/
- 
  python3.10 环境名 Lib2Vec-env 文件夹~/Lib2Vec-env
 ~~source Lib2Vec-env/bin/activate 激活环境~~
 ~~deactivate 退出环境~~
@@ -19,17 +18,26 @@ sorce setup_environment.sh
 ```
 这样就无需conda activate, source Lib2Vec-env/bin/activate了
 
+## 上传github
+ssh更稳定
+以后更新进度，只要：
+```bash
+git add .
+git commit -m "更新进度说明"
+git push
+```
+
 ## 已安装
 参见requirements.txt
-~~PyTorch版本: 2.7.1+cu118~~
-~~CUDA版本: 11.8~~
+~~PyTorch版本: 2.7.1+cu118 ~~
+~~CUDA版本: 11.8 ~~
 ~~GPU设备: NVIDIA GeForce RTX 4060 Laptop GPU~~
 ~~NumPy版本: 2.1.2~~
 ~~Pandas版本: 2.3.1~~
 ~~Scikit-learn版本: 1.7.1~~
 ~~Matplotlib版本: 3.10.5~~
 
-~~toLiberty-parser （使用未验证，未添加路径到环境变量，也不知道要不要添加）附网址~~https://codeberg.org/tok/liberty-parser（论文引用17）~~
+~~toLiberty-parser （使用未验证，未添加路径到环境变量，也不知道要不要添加）附网址：       ~~   ~~https://codeberg.org/tok/liberty-parser（论文引用17）~~
 
 ~~jupyter（可视化）~~
 ~~seaborn plotly ipywidgets（额外的数据处理库）~~
@@ -71,6 +79,4 @@ flowchart TD
         E -- 输入 --> H[电气模型训练]
     end
 ```
-
-
 
